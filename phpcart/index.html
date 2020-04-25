@@ -1,0 +1,610 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>phpCart Ecommerce Shopping Cart Script (Demo)</title>
+
+<style type="text/css">
+
+<!--
+
+body {
+
+	margin-left: 0px;
+
+	margin-top: 0px;
+
+	margin-right: 0px;
+
+	margin-bottom: 0px;
+
+	background-image: url(images/body_bg.gif);
+
+}
+
+-->
+
+</style>
+
+<link href="templates/classic/stylesheet.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+<table align="center" width="770"  border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+
+	<tr>
+
+		<td width="100%" align="center">
+
+			<table width="760"  border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" class="tableborder">
+
+				<tr>
+
+					<td width="256"><img src="templates/classic/images/logo.gif" width="256" height="102"></td>
+
+					<td width="24"><img src="templates/classic/images/headerimage_1.gif" width="24" height="102"></td>
+
+					<td width="480" class="headerright_image">&nbsp;</td>
+
+				</tr>
+
+			</table>
+
+			<br><br>
+
+			<table border="1" cellpadding="5" cellspacing="4" width="760" bordercolor="#FF0000" bordercolorlight="#FF0000" bordercolordark="#FF0000" bgcolor="#FFFFFF">
+
+				<tr>
+
+					<td width="100%">
+
+						<p align="center"><font face="Verdana" size="3">phpCart Demo Page</font></p>
+						<blockquote>
+						<p align="center"><font face="Verdana" size="2">This page is intended as a demo of how your web site could look using phpCart <i>Add to Cart</i> buttons <br>
+						    (before you add your product photos).<br>
+							<br>
+						    To add products to your web site, you simply create unique <i>Add to Cart </i> buttons by adding hyperlinks buttons or html form 
+						    buttons to  your current web site pages. When customers press the <i>Add to Cart </i> buttons, their shopping cart is automatically populated.</font></p>
+						<p align="center"><font face="Verdana" size="2"><strong>Note:</strong> The phpCart software does not create your store web site pages,  your web site content or any product information in any way. phpCart is just the easist shopping cart back end to add to your existing or new  web site.</font></p>
+						<p align="center"><font size="2" face="Verdana">phpCart is a completely template-driven shopping cart script which means your shopping cart can look exactly like the rest of your website. PHPCart is not a shopping cart that takes over your website.</font></p>
+						<p align="center"><font size="2" face="Verdana">phpCart can also work with multiple currencies and the new Canadian Taxes (PST/GST/HST). <br> 
+						    <a href="currency_test.html">Click here to see a demo page for multiple currencies.</a></font></p>
+						</blockquote>
+					</td>
+
+				</tr>
+
+			</table>
+
+			<br><br>
+
+			<table border="0" cellspacing="0" width="760" cellpadding="0" bgcolor="#000000">
+
+				<tr>
+
+					<td width="100%">
+
+						<table border="0" cellspacing="01" width="780" cellpadding="5" bgcolor="#000000">
+
+							<tr>
+
+								<td colspan="5" bgcolor="#FFFFFF">
+
+									<p align="center"> <a href="phpcart.php?action=view"><img src="images/viewcart.gif" border="0"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="phpcart.php?action=clear"><img src="images/emptycart.gif" border="0" width="111" height="16"></a><br>
+
+										<br>
+
+									</p>
+
+								</td>
+
+							</tr>
+
+							<tr>
+
+								<td bgcolor="#FF0000"><font color="#FFFFFF" size="1" face="Verdana"><b>ID</b></font></td>
+
+								<td bgcolor="#FF0000"><font color="#FFFFFF" size="1" face="Verdana"><b>Description</b></font></td>
+
+								<td bgcolor="#FF0000"><font color="#FFFFFF" size="1" face="Verdana"><b>Price</b></font></td>
+
+								<td bgcolor="#FF0000"><font color="#FFFFFF" size="1" face="Verdana"><b>Options</b></font></td>
+
+								<td bgcolor="#FF0000"><font color="#FFFFFF" size="1" face="Verdana"><b>Action</b></font></td>
+
+							</tr>
+
+							
+
+							<tr bgcolor="#FFFFFF">
+
+								<td colspan="5">
+
+									<div align="left"><strong>Create Simple "Add To Cart" Buttons using html link code</strong></div>
+
+								</td>
+
+							</tr>
+
+							<tr bgcolor="#FFFFFF">
+
+								<td width="45" valign="middle"><b><font size="1" face="Verdana">cart-sbu</font></b></td>
+
+								<td valign="middle"><b><font size="1" face="Verdana">PHPCart Single To Small-Business Upgrade </font></b></td>
+
+								<td valign="middle"><b><font size="1" face="Verdana">$24.99</font></b></td>
+
+								<td valign="middle"></td>
+                                
+                                <td valign="middle"><a href="phpcart.php?action=add&id=cart-sbu1&descr=PHPCart+Single+To+Small-Business+ Upgrade&price=24.99&shipping1=3.95&shipping2=2.95&weight=1&taxrateid=2&quantity=1&key=bd0008bf71c9ec04216add22b32b73b4"><img src="images/add_cart.gif" border="0"></a></td>
+
+
+
+							</tr>
+
+							<tr bgcolor="#FFFFFF">
+
+								<td width="45" valign="middle"><b><font size="1" face="Verdana">BEAT-01</font></b></td>
+
+								<td valign="middle"><b><font size="1" face="Verdana">Music CD/Beatles</font></b></td>
+
+								<td valign="middle"><b><font size="1" face="Verdana">$14.99</font></b></td>
+
+								<td valign="middle"></td>
+
+								<td valign="middle"><a href="phpcart.php?action=add&id=BEAT-01&descr=Music+CD%2FBeatles&price=14.99&shipping1=2.95&shipping2=1.95&taxrateid=2&quantity=1&key=99c2dfbfdd53c84ab7ee218195499ea7"><img src="images/add_cart.gif" border="0"></a></td>
+
+							</tr>
+
+							<tr bgcolor="#FFFFFF">
+
+								<td width="45" valign="middle"><b><font size="1" face="Verdana">HOWTO</font></b></td>
+
+								<td valign="middle"><font size="1" face="Verdana"><b>Book - How To Program in PHP </b></font></td>
+
+								<td valign="middle"><b><font size="1" face="Verdana">$18.89</font></b></td>
+
+								<td valign="middle"></td>
+
+								<td valign="middle"><a href="phpcart.php?action=add&id=HOWTO&descr=Book+-+How+To+program+in+PHP&price=18.89&quantity=1&key=2513875f8e2706dbe67a3ee418e951a6"><img src="images/add_cart.gif" border="0"></a></td>
+
+							</tr>
+							
+                            
+                            <form action="phpcart.php" method="post">
+                            <input type="hidden" value="add" name="action">
+                            <input type="hidden" value="1" name="quantity">
+                            <input type="hidden" value="MTCOTTON" name="id">
+                            <input type="hidden" value="Mens Cotton T-Shirt" name="descr">
+                            <input type="hidden" value="8.59" name="price">
+                            <input type="hidden" name="taxrateid" value="1">
+                            <input type="hidden" name="weight" value="5">
+                            <input type="hidden" name="key" value="fb6abb4ad1e4224602455077da47e485">
+                            
+                            <tr bgcolor="#FFFFFF">
+								<td colspan="5">
+									<div align="left"><strong>Create  "Add To Cart" Buttons using html form code</strong></div>
+								</td>
+							</tr>
+                            
+							<tr bgcolor="#FFFFFF">
+								<td width="45" valign="middle"><b><font size="1" face="Verdana">MTCOTTON</font></b></td>
+
+								<td valign="middle"><b><font size="1" face="Verdana"> Men's Cotton T-Shirt</font></b></td>
+
+								<td valign="middle"><b><font size="1" face="Verdana">$8.59</font></b></td>
+
+								<td valign="right"><font size="1" face="Verdana"><b>
+
+									<p align="right">Color:
+
+											<select name="option1[]" size="1">
+												
+												<option value="Blue::ab1f30a41d78438589eed8bdce18871e">Blue</option>
+
+												<option value="Green::1da7980eda60f49b0e9f7802757b99db">Green</option>
+
+												<option value="Red::7a6f29fad75a8a88cd039888e650997c">Red</option>
+
+												<option value="Purple::b1960f69617712a6202d04fdbe48884d">Purple</option>
+
+												<option value="White::378a8031a427966502eaa1aa9431be8a">White</option>
+
+								    		</select>
+
+                                            <br>
+
+										 Size:    
+
+										 <select name="option2[]" size="1">
+
+                                        		<option value="Small:.50:faeb82288bda08c0626cec74291feaa6">Small $.50 extra</option>
+
+                                        		<option value="Medium:1.00:f8f6e02e741e621fd9ff336f00cdaf25">Medium $1.00 extra</option>
+
+                                        		<option value="Large:2.00:81f2e314164995e1209c46679d02e948">Large $2.00 extra</option>
+
+                                       		</select></p>
+
+									</b></font></td>
+
+								<td valign="middle">
+
+									
+
+									<input type="submit" value="Add to Cart"></td>
+
+							</tr>
+
+							</form>
+                            
+                            <form action="phpcart.php" method="post">                       
+                            <input type="hidden" value="add" name="action">
+                            <input type="hidden" value="1" name="quantity">
+                            <input type="hidden" name="key" value="f37f771c86391d76ccc8458cdc8ef553">
+                            <input type="hidden" name="id" value="WCARDIGAN">
+                            <input type="hidden" name="descr" value="Woman's+Cardigan">
+                            <input type="hidden" name="price" value="38.95">
+                            <input type="hidden" name="!option4" value="">
+                            
+                            <tr bgcolor="#FFFFFF">
+                            <td width="45" valign="middle"><b><font size="1" face="Verdana">WCARDIGAN</font></b></td>
+
+								<td valign="middle"><b><font size="1" face="Verdana"> Women's Cardigan</font></b></td>
+
+								<td valign="middle"><b><font size="1" face="Verdana">$38.95</font></b></td>
+
+								<td valign="right"><font size="1" face="Verdana"><b>
+
+									<p align="right">Color<select name="option1">
+<option value="Pink::bb6d85e0ae745f8ec3196d9baa6a145a">Pink</option>
+<option value="Lime Green::022f2740abdb4dd82edbad1fb13f7d1e">Lime Green</option>
+<option value="Purple::b1960f69617712a6202d04fdbe48884d">Purple</option>
+<option value="White::378a8031a427966502eaa1aa9431be8a">White</option>
+</select>         
+                                    
+                                            <br><br>
+Size: (mandatory)<br>  
+                                     
+                                     <input type="radio" name="!option4" value="Small::a210fccc1bd8577a70144b7efff26677"> Small
+ 									<input type="radio" name="!option4" value="Medium::63e8ca40134b10790d8c7f4426c1e88a"> Medium
+ 									<input type="radio" name="!option4" value="Large::65fb34f5b2411c0712408beace680eff"> Large
+									 
+  											</p>
+
+									</b></font></td>
+
+									<td valign="middle">
+										<input type="submit" value="Add to Cart">
+                                    </td>
+                                </tr>
+                                    
+                                    </form>
+                                    
+
+
+
+							<form action="phpcart.php" method="post">
+                            <input type="hidden" value="add" name="action">
+                            <input type="hidden" value="GB1000" name="id">
+                            <input type="hidden" value="Golf Balls - Long Distance" name="descr">
+                            <input type="hidden" value="24.95" name="price">
+                            <input type="hidden" name="taxrateid" value="1">
+                            <input type="hidden" name="weight" value="5">
+                            <input type="hidden" name="key" value="71464521db868478d456687708371926">
+
+							<tr bgcolor="#FFFFFF">
+
+									<td width="45" valign="middle"><b><font size="1" face="Verdana">GB1000</font></b></td>
+
+									<td valign="middle"><b><font size="1" face="Verdana">Golf Balls - Long Distance</font></b></td>
+
+									<td valign="middle"><b><font size="1" face="Verdana">$24.95</font></b></td>
+
+									<td valign="right"><font size="1" face="Verdana"><b>
+
+										<div align="right">Quantity:
+
+									        <input name="quantity" type="text" size="4">
+
+										</div>
+
+									</b></font></td>
+
+									<td valign="middle">
+										<input type="submit" value="Add to Cart">
+                                    </td>
+
+							</tr>
+							</form>
+   
+   
+                            
+                            <form action="phpcart.php" method="post">
+							<input type="hidden" value="add" name="action">
+                            <input type="hidden" value="CV25" name="id">
+                            <input type="hidden" value="Ball Point Pens" name="descr">
+                            <input type="hidden" value="2.95,1:2.45,6" name="price">
+                            <input type="hidden" name="taxrateid" value="1">
+                            <input type="hidden" name="weight" value="5">
+                            <input type="hidden" name="key" value="a31078912325fedc3f6a115a29aec416">
+							<tr bgcolor="#FFFFFF">
+
+									<td width="45" valign="middle"><b><font size="1" face="Verdana">CY25</font></b></td>
+
+									<td valign="middle"><b><font size="1" face="Verdana">Pens - Ball Point</font></b></td>
+
+									<td valign="middle"><font size="1" face="Verdana">
+                                    	<b>$2.95 (1-5)</b> <br>
+									    <strong>$2.45 (5+)</strong></font>
+									</td>
+
+									<td valign="right"><font size="1" face="Verdana"><b>
+
+										<div align="right">Quantity:
+									        <input name="quantity" type="text" size="4">
+										</div></b></font>
+                                    </td>
+
+									<td valign="middle">
+										<input type="submit" value="Add to Cart">
+                                    </td>
+							</tr>
+							</form>
+                            
+                            <form action="phpcart.php" method="post">
+							<input type="hidden" value="add" name="action">
+                            <input type="hidden" value="XYX" name="id">
+                            <input type="hidden" value="8 Inch Flower Pot" name="descr">
+                            <input type="hidden" value="1.29,2:.99,6" name="price">            
+                            <input type="hidden" name="taxrateid" value="1">
+                            <input type="hidden" name="weight" value="5">
+                            <input type="hidden" name="key" value="de73a40059890edc08671cbcefb4c1d7">
+                                    
+							<tr bgcolor="#FFFFFF">
+
+									<td width="45" valign="middle">
+                                    	<b><font size="1" face="Verdana">XYZ</font></b>
+                                    </td>
+
+									<td valign="middle">
+                                    	<b><font size="1" face="Verdana">8&quot; Flower Pot<br>
+										(minimum quantity = 2)</font></b>
+                                    </td>
+
+									<td valign="middle">
+                                    	<font size="1" face="Verdana"><b>$1.29 (2-5)</b><br>
+									    <strong>$ .99 (5+)</strong></font>
+									</td>
+
+									<td valign="right"><font size="1" face="Verdana"><b>
+										<div align="right">Quantity:
+									        <input name="quantity" type="text" size="4">
+										</div></b></font>
+                                    </td>
+
+									<td valign="middle">
+										<input type="submit" value="Add to Cart">
+                                    </td>
+							</tr>
+							</form>
+
+
+
+							<form action="phpcart.php" method="post">
+                
+                            <input type="hidden" name="action" value="add">
+							<input type="hidden" name="key" value="c597f5a0f8819e3fb610c60cbff37daa">
+							<input type="hidden" name="id" value="CLK-3">
+							<input type="hidden" name="descr" value="Wall+Clock">
+							<input type="hidden" name="price" value="199.99">
+							<input type="hidden" name="taxrateid" value="1">
+							<input type="hidden" name="weight" value="5">
+                                    
+							<tr bgcolor="#FFFFFF">
+									<td width="45" valign="middle">
+                                    	<b><font size="1" face="Verdana">CLK-3</font></b>
+                                    </td>
+
+									<td valign="middle">
+                                    	<b><font size="1" face="Verdana"> Wall Clock </font></b>
+                                    </td>
+
+									<td valign="middle">
+                                    	<b><font size="1" face="Verdana">$199.99</font></b>
+                                    </td>
+
+									<td valign="right">
+										<div align="right"><font size="1" face="Verdana"><b>Add Engraving 
+											<input name="!option1[]" type="text" size="15">
+										    <input name="!option1[]" type="hidden" value="Engraving::d2340dc2d27010acbb93b8e588418728">
+										</b></font></div>
+									</td>
+
+									<td valign="middle">
+										<input type="submit" value="Add to Cart">
+                                    </td>
+							</tr>
+							</form>
+
+							<tr bgcolor="#FFFFFF">
+
+								<td colspan="5">
+
+									<div align="left"><strong>Add Multiple Items To The Cart Simultaneously (with or without quantity field, unlimited options per each item) </strong></div>
+
+								</td>
+
+							</tr>
+
+							<form action="phpcart-m.php" method="post">
+
+							<tr bgcolor="#FFFFFF">
+
+								<td width="45" valign="middle"><b><font size="1" face="Verdana">TKT</font></b></td>
+
+								<td valign="middle"><b><font size="1" face="Verdana">Tickets</font></b></td>
+
+								<td valign="middle"><b><font size="1" face="Verdana">$12.95<br>
+
+									to<br>
+
+									$99.95
+
+								</font></b></td>
+
+								<td valign="middle" align="right"><font size="1" face="Verdana"><b>									Adult    $99.95
+
+								        <input type="hidden" name="item_1" value="TIC-ADULT|Adult Tickets at $99.95|99.95|||||||">
+
+								<input type="hidden" name="key_1" value="fb4a05c44d15d13f151132b93cc93c64">
+
+								<input type="textbox" name="qty_1" size="1" value="0">
+
+								<select name="opt_1_1">
+
+								<option value="Orchestra:50:6608386f89bb93c35d8917638a909878">Orchestra+$50</option>
+
+								<option value="Balcony::ca4037dc448d16750550a83825dfca36">Balcony</option>
+
+								</select>
+
+								<br>
+
+								Kids    $12.95
+
+								<input type="hidden" name="item_2" value="TIC-CHILD|Child Tickets at $12.95|12.95|||||||">
+
+								<input type="hidden" name="key_2" value="2888985dfb2dfaacc2b1ec005c1f9fc9">
+
+								<input type="textbox" name="qty_2" size="1" value="0">
+
+								<select name="opt_2_1">
+
+								<option value="Orchestra:30:f8a01689caab73778d1209c9156f9b54">Orchestra+$30</option>
+
+								<option value="Balcony::ca4037dc448d16750550a83825dfca36">Balcony</option>
+
+								</select>
+
+								<br>
+
+								Senior     $49.95
+
+								<input type="hidden" name="item_3" value="TIC-SENIOR|Senior Tickets at $49.95|49.95|||||||">
+
+								<input type="hidden" name="key_3" value="67da499de3c247bf8672d911920e3153">
+
+								<input type="textbox" name="qty_3" size="1" value="0">
+
+								<select name="opt_3_1">
+
+								<option value="Orchestra:50:6608386f89bb93c35d8917638a909878">Orchestra+$50</option>
+
+								<option value="Balcony::ca4037dc448d16750550a83825dfca36">Balcony</option>
+
+								</select>
+
+								</b></font></td>
+
+								<td valign="middle">
+
+									<input name="imageField" type="image" src="images/add_cart.gif" width="111" height="16" border="0">
+
+								</td>
+
+							</tr>
+
+							</form>
+
+							<tr bgcolor="#FFFFFF">
+
+								<td colspan="5">
+
+									<div align="left"><strong>Create Complex "Add To Cart" Buttons (unlimited options, multiple option types) </strong></div>
+
+								</td>
+
+							</tr>
+
+							<form action="phpcart.php" method="post">
+							<input type="hidden" value="add" name="action">
+							<input type="hidden" value="1" name="quantity">
+							<input type="hidden" value="HAM" name="id">
+							<input type="hidden" value="Ham Sandwich" name="descr">
+							<input type="hidden" value="4.95" name="price">
+                            <input type="hidden" value="c560848a6eb00609fb67041a1782eb29" name="key">
+                            
+							<tr bgcolor="#FFFFFF">
+
+								<td width="45" valign="middle"><font face="Verdana" size="1"><b>HAM</b></font></td>
+
+								<td valign="middle"><font size="1" face="Verdana"><b>Ham Sandwich</b></font></td>
+
+								<td valign="middle"><b><font size="1" face="Verdana">$4.95</font></b></td>
+
+								<td align="left"><font size="1" face="Verdana">
+                                	<b>Bread <select name="option0" size="1">
+
+											<option value="Wheat::f24a7e9c8e04e499bf502a2abf5d80cd">Wheat</option>
+											<option value="White:2.00:179f15888e94f4c77c30b0b59d3e5d52">White $2.00</option>
+											<option value="Rye::dd5621454734e7c1377232d1df27e3a6">Rye</option>
+											<option value="Sourdough::4cf06d31350a37101cb93e712ba7b644">Sourdough</option>
+											<option value="Pita:1.25:491504300f244cd25a04ba549006ae32">Pita - $1.25</option>
+									</select>
+
+									<hr>
+                                    <input name="option1" type="radio" value="Sandwich Only::f7bd2b5ac26fe38b332544a258c100c1" checked>Sandwich Only<br>
+
+									<input type="radio" name="option1" value="Combo Meal:1.95:75db13ac608ae3d8dd607a247378afed">Combo Meal $1.95 <br>
+
+									<hr>
+
+                                    <input type="checkbox" name="option2" value="Mayonaise::8ef55879367d341ea647dabb8743a705"> Mayonaise<br>
+                                    <input type="checkbox" name="option3" value="Mustard::2f2c2d8cf6aeca06c9ac48cf9819a13e"> Mustard<br>
+                                    <input type="checkbox" name="option4" value="Lettuce::b4f873e1605f7000e56b9007a2c38520"> Lettuce<br>
+                                    <input type="checkbox" name="option5" value="Tomato::db46d422f0aebb5060431984d44c78e7"> Tomato<br>
+                                    <input type="checkbox" name="option6" value="Avocado:1.00:a7ddd0342c3c7b9ca3d0f810d6422026"> Avocado $1.00<br>
+    
+                                    </b></font>
+                                </td>
+
+								<td valign="middle">
+									<input name="imageField" type="image" src="images/add_cart.gif" width="111" height="16" border="0">
+								</td>
+							</tr>
+							</form>
+						</table>
+					</td>
+				</tr>
+			</table>
+
+			<table width="760"  border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" class="tableborder">
+
+				<tr>
+					<td height="7" bgcolor="#CC0000">
+                   		<img src="images/red_dot.gif" width="5" height="7">
+                    </td>
+				</tr>
+
+				<tr>
+					<td height="35" align="center" bgcolor="#4BDBFF" class="copyright">
+						<p>Copyright @ 2006 - <script type="text/javascript"> var dateObject=new Date(); document.write(dateObject.getFullYear()); </script> Webrigger Internet Services. All Rights Reserved <br>
+							<a href="http://www.phpcart.net" class="footer">phpCart.net</a> - php Shopping Cart</p>
+					</td>
+				</tr>
+			</table>
+
+		</td>
+	</tr>
+</table>
+
+</body>
+
+</html>

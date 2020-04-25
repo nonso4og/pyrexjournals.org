@@ -1,0 +1,273 @@
+<style type="text/css">
+
+/* GENERAL STYLING */
+
+html {
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+body {
+	background: #E1E1E2;
+	color: #000000;
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+	margin: 10px 5px 15px 5px;
+}
+
+.page {
+	background: #FFFFFF;
+	color: #000000;
+}
+
+.maintable {
+	background: #FFFFFF;
+	color: #000000;
+}
+
+
+
+/* LINKS */
+
+.nav_links { 
+	line-height:20px;
+	font-size: 12px;
+}
+
+.submenu {
+	background-color: #718EB7;
+	color: #FFFFFF;
+	display:block;
+	padding:5px;
+	margin-bottom:7px;
+	border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.sublink {
+	color: #718EB7;
+	text-decoration: none;
+}
+
+.sublink a {
+	color: #718EB7;
+	text-decoration: none;
+}
+
+.active {
+	color: #718EB7;
+	text-decoration: none;
+	font-weight: bold;
+}
+/* END LINKS  */
+
+
+.main_menu {
+	text-decoration:none;
+	padding: 4px 10px;
+    display: inline-block;
+    /*background: #C8DBFF;*/
+	background: #718EB7;
+	border: 1px solid #FFFFFF;
+    color: #FFFFFF;
+    cursor: pointer;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.main_menu a{
+	text-decoration:none;
+	 color: #FFFFFF;
+	 /*background: #718EB7;*/
+}
+
+.main_menu:hover{
+	text-decoration:none;
+	background: #FFFFFF;
+    color: #718EB7;
+}
+
+.main_menu a:hover{
+	text-decoration:none;
+	background: #FFFFFF;
+    color: #718EB7;
+}
+
+.main_menu_active {
+	text-decoration:none;
+	padding: 4px 10px;
+    display: inline-block;
+	background: #FFFFFF;
+	border: 1px solid #FFFFFF;
+    color: #718EB7;
+    cursor: pointer;
+    border-radius: 5px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+}
+
+.main_menu_active a{
+	text-decoration:none;
+	 color: #718EB7;
+	 /*background: #FFFFFF;*/
+}
+
+.button_padding {
+	padding: 15px 0px 0px 0px;
+}
+
+.no_decoration {
+	text-decoration:none;
+}
+
+
+/*PAGE LAYOUT */
+.tab_content {
+  padding: 20px; 
+  vertical-align: top; 
+  background-color: #ffffff; 
+}
+
+.tab_content_left  {
+  padding-top: 20px; 
+  padding-left: 10px;
+  vertical-align: top; 
+  background-color: #ffffff; 
+  width: 150px !important;
+}
+
+.tab_content_right  {
+  padding: 20px; 
+  vertical-align: top; 
+  background-color: #ffffff; 
+}
+
+.tab_content_sides {
+  padding: 20px; 
+  vertical-align: top; 
+  background-color: #ffffff; 
+}
+
+
+
+/* TABLES */
+
+.tborder {
+	background: #D1D1E1;
+	color: #000000;
+	border: 1px solid #0B198C;
+	
+}
+
+.theader {
+	background: #3E5C92;
+	color: #FFFFFF;
+	padding: 4px;
+}
+
+.tfoot {
+	background: #3E5C92;
+}
+
+
+
+
+/* FORMS */
+textarea, .bginput {
+	font: 10pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+
+.button {
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+
+select {
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+
+.form_label {
+	color: #3E5C92;	
+}
+
+.textarea1 {
+	width: 300px;
+	height: 50px;
+}
+
+.cssBlueButton {
+    background: linear-gradient(to bottom, #718EB7 5%, #1E62D0 100%) repeat scroll 0 0 #718EB7;
+	background-color: #718EB7;
+    border: 1px solid #718EB7;
+    border-radius: 6px 6px 6px 6px;
+    box-shadow: 0 1px 0 0 #97C4FE inset;
+    color: #FFFFFF !important;
+    display: inline-block;
+    font-family: arial;
+    font-size: 12px;
+    font-weight: bold;
+    padding: 3px 10px;
+    text-decoration: none;
+    text-shadow: 0 1px 0 #1570CD;
+}
+
+
+/*  TEXT */
+
+p, .body_text {
+	color: #3E5C92;
+}
+
+.page_title {
+	color: #718EB7;
+}
+
+.smallfont {
+	font: 11px verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+
+.date {
+	color: #FFFFFF;
+}
+
+.copyright {
+	color: #FFFFFF;
+	font: 9pt verdana, geneva, lucida, 'lucida grande', arial, helvetica, sans-serif;
+}
+
+.copyright a{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+
+.copyright a:hover{
+	color: #FFFFFF;
+	font-weight: bold;
+	text-decoration: none;
+}
+
+.support_link {
+	color: #3E5C92;
+}
+
+.support_link a{
+	text-decoration: none;
+	color: #3E5C92;
+}
+
+.support_link a:hover{
+	text-decoration: none;
+	color: #3E5C92;
+	font-weight: bold;
+}
+/* SYSTEM MESSAGES */
+
+.msg {
+	color: green;
+}
+
+.error {
+	color: red;
+}
+
+</style>

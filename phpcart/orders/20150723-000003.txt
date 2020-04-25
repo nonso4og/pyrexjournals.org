@@ -1,0 +1,150 @@
+<html>
+<head>
+<title>New Order</title>
+</head>
+<body>
+<style>
+<!--
+body,p,td{font:Geneva, Arial, Helvetica, sans-serif; font-size:12px}
+-->
+</style>
+ 	<hr width="75%">
+ 	<table align="center" width ="75%" border="1">
+ 	<tr><td colspan="2" bgcolor="#CCCCCC"><b><font size="5" face="Geneva, Arial, Helvetica, sans-serif">Pyrex Integrated Services</font></b></td></tr>
+	<tr><td colspan="2"><em><font size="4" face="Geneva, Arial, Helvetica, sans-serif">Web Order Summary</font></em></td></tr>
+	<tr><td width="20%">
+		<p align="right"><font size="3" face="Geneva, Arial, Helvetica, sans-serif">Date:</font></td>
+	<td width="79%" name="order_date">
+		<font size="3" face="Geneva, Arial, Helvetica, sans-serif">Jul 23rd, 2015 8:29:25 am</font></td>
+	</tr>
+	<tr><td width="10%">
+		<p align="right"><font size="3" face="Geneva, Arial, Helvetica, sans-serif">Order ID:</font></td><td width="89%">
+		<font size="3" face="Geneva, Arial, Helvetica, sans-serif">20150723-000003</font></td></tr></table>
+	<br>
+<hr width="75%">
+ 	<br>
+ 	<table border="1" align="center" width = "800" id="table1">
+		<tr>
+			<td colspan="2"><b><font size="4">Order Summary</font></b><br><br>
+			<br>&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="right"><b>Name:</b> </td>
+			<td name="order_name">test test</td>
+		</tr>
+		<tr>
+			<td align="right"><b>E-mail:</b> </td>
+			<td><a href=mailto:test@abc.com style="text-decoration: none">test@abc.com</a></td>
+		</tr>
+		<tr>
+			<td align="right"><b>Company:</b></td>
+			<td name="order_company">&nbsp;test</td>
+		</tr>
+
+		<tr>
+			<td colspan="2">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="2"><b>Postal Address:</b>
+			</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>123 test<br><br>test<br>AK<br>11111<br>United States</td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td align="right"><b>Telephone:</b></td>
+			<td></td>
+		</tr>
+		<tr>
+			<td align="right"><b>IP:</b></td>
+			<td>64.128.162.234</td>
+		</tr>
+		<tr>
+			<td colspan="2">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="2">&nbsp;</td>
+		</tr>
+		<tr>
+			<td>
+			<p align="right"><b>
+			Coupon:</b></td>
+			<td>&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="2">&nbsp;</td>
+		</tr>
+		<tr>
+			<td colspan="2"><b>Order Comments:</b><br> </td>
+		</tr>
+</table>
+<p>
+ 	<br>
+ 	&nbsp;</p>
+<div align="center">
+<table width="800" border="1">
+<tr>
+	<td align="center"><b>Item</b></td>
+	<td align="center"><b>ID</b></td>
+	<td align="center"><b>Name</b></td>
+	<td align="center"><b>Price</b></td>
+	<td align="center"><b>Quantity</b></td>
+	<td align="center"><b>Total</b></td>
+</tr>
+<!-- BEGIN CARTITEMS -->
+<tr>
+	<td>1</td>
+	<td>0001</td>
+	<td>PYREX-PUB-2015 </td>
+	<td>US $200.00</td>
+	<td>1</td>
+	<td>US $200.00</td>
+</tr>
+<!-- END CARTITEMS -->
+</table>
+</div>
+&nbsp;<p>
+<br>
+</p>
+<div align="center">
+<table width="321">
+<tr>
+	<td align="right"><font face="Arial" size="2"><strong>Sub Total</strong></font></td>
+	<td align="right"><font face="Arial" size="2">US $200.00</font></td>
+</tr>
+
+<!-- END DISCOUNT -->
+
+<tr>
+	<td align="right"><font face="Arial" size="2"><strong><!-- BEGIN TAXTITLE1 --><br><!-- END TAXTITLE1 --><!-- BEGIN TAXTITLE2 -->  <br><!-- END TAXTITLE2 -->Total Tax</strong></font></td>
+	<td align="right"><font face="Arial" size="2"><!-- BEGIN SEPARATETAX1 --><br><!-- END SEPARATETAX1 --><!-- BEGIN SEPARATETAX2 --> <br><!-- END SEPARATETAX2 -->US $0.00</font></td>
+</tr>                
+                  
+<tr>
+	<td align="right"><font face="Arial" size="2"><strong>Shipping</strong></font></td>
+	<td align="right"><font face="Arial" size="2">US $0.00</font></td>
+</tr>
+<tr>
+	<td align="right"><font face="Arial" size="2"><strong>Total</strong></font></td>
+	<td align="right">
+	<div style="border-top-style: double; border-top-width: 3px">
+		<font face="Arial" size="2"><strong>US $200.00</strong></font></div>
+	</td>
+</tr>
+</table></div>
+
+<p>&nbsp;</p>
+
+<p><b>Order Information</b><br>
+
+Your order was completed in US Dollar.<br>
+Order Method = 2checkout<br>
+Shipping Method = </p>
+
+</body>
+</html>

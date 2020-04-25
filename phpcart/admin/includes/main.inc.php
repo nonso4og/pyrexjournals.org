@@ -1,0 +1,21 @@
+<!-- Delete all of the below lines to remove advertising -->
+<b><script language="javascript" type="text/javascript">document.write(news_title10);</script></b>
+<script language="javascript" type="text/javascript">document.write(news_content10);</script>
+<b><script language="javascript" type="text/javascript">document.write(news_title9);</script></b>
+<script language="javascript" type="text/javascript">document.write(news_content9);</script>
+<b><script language="javascript" type="text/javascript">document.write(news_title8);</script></b>
+<script language="javascript" type="text/javascript">document.write(news_content8);</script>
+<b><script language="javascript" type="text/javascript">document.write(news_title7);</script></b>
+<script language="javascript" type="text/javascript">document.write(news_content7);</script>
+<b><script language="javascript" type="text/javascript">document.write(news_title6);</script></b>
+<script language="javascript" type="text/javascript">document.write(news_content6);</script>
+<b><script language="javascript" type="text/javascript">document.write(news_title5);</script></b>
+<script language="javascript" type="text/javascript">document.write(news_content5);</script>
+<b><script language="javascript" type="text/javascript">document.write(news_title4);</script></b>
+<script language="javascript" type="text/javascript">document.write(news_content4);</script>
+<b><script language="javascript" type="text/javascript">document.write(news_title3);</script></b>
+<script language="javascript" type="text/javascript">document.write(news_content3);</script>
+<b><script language="javascript" type="text/javascript">document.write(news_title2);</script></b>
+<script language="javascript" type="text/javascript">document.write(news_content2);</script>
+<b><script language="javascript" type="text/javascript">document.write(news_title);</script></b>
+<script language="javascript" type="text/javascript">document.write(news_content);</script>

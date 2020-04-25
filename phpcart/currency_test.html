@@ -1,0 +1,275 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+
+<html>
+
+<head>
+
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+
+<title>phpCart Currency Test Page</title>
+
+<style type="text/css">
+
+<!--
+
+body {
+
+	margin-left: 0px;
+
+	margin-top: 0px;
+
+	margin-right: 0px;
+
+	margin-bottom: 0px;
+
+	background-image: url(images/body_bg.gif);
+
+}
+
+-->
+
+</style>
+
+<link href="templates/classic/stylesheet.css" rel="stylesheet" type="text/css">
+
+</head>
+
+<body>
+
+<table align="center" width="770"  border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF">
+
+	<tr>
+
+		<td width="100%" align="center">
+
+			<table width="760"  border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" class="tableborder">
+
+				<tr>
+
+					<td width="256"><img src="templates/classic/images/logo.gif" width="256" height="102"></td>
+
+					<td width="24"><img src="templates/classic/images/headerimage_1.gif" width="24" height="102"></td>
+
+					<td width="480" class="headerright_image">&nbsp;</td>
+
+				</tr>
+
+			</table>
+
+			<br><br>
+
+			<table border="1" cellpadding="5" cellspacing="4" width="760" bordercolor="#FF0000" bordercolorlight="#FF0000" bordercolordark="#FF0000" bgcolor="#FFFFFF">
+
+				<tr>
+
+					<td width="100%">
+
+						<p align="center"><font face="Verdana" size="3">phpCart Currency Test Page</font></p>
+						<blockquote>
+						<p align="center"><font face="Verdana" size="2">This page is intended as a test of using multiple currencies with phpCart.<br>
+						<br>
+						</font></p>
+						<p align="center"><font face="Verdana" size="2"><strong>Step 1 - Create Multiple Currencies </strong></font></p>
+						<p align="center"><font face="Verdana" size="2">Go to the Admin Control Panel and select &quot;Currencies&quot; from the Drop Down Box. Enter the currencies you want to use. Choose a Primary Currency and insert any Currency Conversion Rates, if you want phpCart to convert your prices for you.
+						</font></p>
+						<p align="center"><font size="2" face="Verdana"><strong><br>
+						    Step 2 - Create your Product Definitons</strong></font></p>
+						<p align="center"><font face="Verdana" size="2">If you want to display &quot;add to cart&quot; buttons with prices for each currency, you can use either the html link or html form method. Create product definitions with prices reflecting each currency. Label each cart button with something like: Click this product for US Dollars for button 1 and Click this product for Canadian Dollars for button 2.
+						    </font>						</p>
+						<p align="center"><font size="2" face="Verdana">If you want to display a single &quot;add to cart&quot; button, you can use the html form method to create a product definition. You just enter your  price and add a drop box or radio buttons for a currency selector and add a message like: Choose Your Currency.</font></p>
+						<p align="center"><font size="2" face="Verdana">For product definitions using html links, just add the currency code in this format: <br>
+						        &amp;currency=usd</font></p>
+                        
+                        <p align="center"><font size="2" face="Verdana">For product definitions using html forms, just add the currency code in this format: <br>
+                            &lt;input type=&quot;hidden&quot; name=&quot;currency&quot; value=&quot;usd&quot;&gt;</font></p>
+                        
+						<p align="center"><font size="2" face="Verdana"><strong><br>
+						    How the cart works</strong></font></p>
+						<p align="center"><font size="2" face="Verdana">When your customer adds a product to phpCart, it will check if it's the primary currency and if not, it will check if it should perform a currency conversion on it before putting it into the cart.</font></p>
+						<p align="center"><font size="2" face="Verdana">The cart template has been updated to include this message:<br>
+						    The prices shown are being displayed in X currency</font></p>
+						<p align="center"><font size="2" face="Verdana">And along side the prices in the cart, the currency symbol displayed will be the one that you entered in the Admin Control Panel.</font></p>
+						<p align="center"><font size="2" face="Verdana">phpcart will also convert your shipping and tax values if you have a conversion rate set.</font></p>
+                        
+                        <p align="center"><font size="2" face="Verdana"><strong><br>
+                            Examples</strong></font></p>
+						<p align="center"><font size="2" face="Verdana">The following examples show the two ways that you can create product defintions for multiple currencies. </font></p>
+						<p align="center"><font size="2" face="Verdana">In order for this test to run properly, you will need to have both US Dollars and Canadian Dollars in the currency settings in the Admin Control Panel. For testing purposes, you can switch primary on the currencies and add conversion rates to see how they perform.</font></p>
+						</blockquote>
+					</td>
+
+				</tr>
+
+			</table>
+
+			<br><br>
+
+			<table border="0" cellspacing="0" width="760" cellpadding="0" bgcolor="#000000">
+				<tr>
+					<td width="100%">
+
+						<table border="0" cellspacing="01" width="780" cellpadding="5" bgcolor="#000000">
+							<tr>
+								<td colspan="5" bgcolor="#FFFFFF">
+									<p align="center"> <a href="phpcart.php?action=view"><img src="images/viewcart.gif" border="0"></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <a href="phpcart.php?action=clear"><img src="images/emptycart.gif" border="0" width="111" height="16"></a><br><br>
+									</p>
+								</td>
+							</tr>
+                            
+                            <tr>
+								<td height="7" bgcolor="#CC0000">
+                   					<img src="images/red_dot.gif" width="5" height="7">
+                    			</td>
+							</tr>
+                            
+                            <tr>
+                            	<td bgcolor="#FFFFFF">
+                                	<h3>Currency Test with an html link</h3>
+                                    
+                                    <blockquote>
+                                    	<p><b>Test 1: Two Currency Buttons</b></p>
+                                        
+                                    	<table border="0" cellpadding="5" cellspacing="0">
+                                        <tr>
+                                        	<td>
+                                    			<img src="images/flowers.jpg" width="150" height="140">
+                                            </td>
+                                            
+                                            <td>
+                                            	<p><strong>Holiday Flower Basket</strong></p>
+                                            	<p>$65.99 (U.S. Dollars)
+                                                
+                                                    <br>
+                                                    ($3.95 shipping for first item, and $2.95 for subsequent items)                                  	
+                                                    </p>
+                                            	<p>Click here to buy with U.S. Dollars<br><a href="phpcart.php?action=add&id=cart-sbu1&descr=Holiday+Flower+Basket&price=64.99&shipping1=3.95&shipping2=2.95&taxrateid=1&quantity=1&curr=usd"><img src="images/add_cart.gif" border="0"></a></p>
+                                               
+                                                
+                                                <p>Click here to buy with Canadian Dollars<br><a href="phpcart.php?action=add&id=cart-sbu1&descr=Holiday+Flower+Basket&price=64.99&shipping1=3.95&shipping2=2.95&taxrateid=3&quantity=1&curr=cand"><img src="images/add_cart.gif" border="0"></a></p>
+                                                                                    
+                                            </td>
+                                        </tr>
+                                    </table>
+                                    </blockquote>
+                                </td>
+                            </tr>
+                            
+                            <tr>
+                            	<td bgcolor="#FFFFFF">
+                                	<h3>Currency Test with html forms</h3>
+                                    <blockquote>
+                                    	<p><b>Test 1: Two Currency Buttons</b></p>
+                                    
+                                    	<table border="0" cellpadding="5" cellspacing="0">
+                                        <tr>
+                                        	<td>
+                                    			<img src="images/flowers.jpg" width="150" height="140">
+                                            </td>
+                                            
+                                            <td>
+                                            	<strong>Holiday Flower Basket</strong>
+                                                
+                                                	<form action="phpcart.php" method="post">
+                            						<input type="hidden" value="add" name="action">
+                            						<input type="hidden" value="HFB1" name="id">
+                            						<input type="hidden" value="Holiday Flower Basket" name="descr">
+                            						<input type="hidden" value="64.99" name="price">
+                            						<input type="hidden" name="taxrateid" value="1">
+                            						<input type="hidden" name="weight" value="5">
+                                                    <input type="hidden" name="curr" value="cand">
+                                                    <input type="hidden" name="quantity" value="1">
+                                                    
+                                                    <p><strong>$64.99</strong> (in Canadian Dollars)			    			
+                                                    
+													<input type="submit" value="Add to Cart"> 
+													</form>    
+                                            	
+                                                	<form action="phpcart.php" method="post">
+                            						<input type="hidden" value="add" name="action">
+                            						<input type="hidden" value="HFB1" name="id">
+                            						<input type="hidden" value="Holiday Flower Basket" name="descr">
+                            						<input type="hidden" value="65.99" name="price">
+                            						<input type="hidden" name="taxrateid" value="1">
+                            						<input type="hidden" name="weight" value="5">
+                                                    <input type="hidden" name="curr" value="usd">
+                                                    <input type="hidden" name="quantity" value="1">
+                                                    
+                                                    <p><strong>$65.99</strong> (in U.S. Dollars)			    			
+                                                    
+													<input type="submit" value="Add to Cart"> 
+													</form>     
+											</td>
+                                        </tr>
+                                    </table>
+                                        
+                                    	<p><b>Test 2: One Currency Button with Currency Selector</b></p>
+                                        <table border="0" cellpadding="5" cellspacing="0">
+                                        <tr>
+                                        	<td>
+                                    			<img src="images/flowers.jpg" width="150" height="140">
+                                            </td>
+                                            
+                                            <td>
+                                            	<strong>Holiday Flower Basket</strong><br>
+                                                $65.99 (in U.S. Dollars)
+         	
+                                                	<form action="phpcart.php" method="post">
+                            						<input type="hidden" value="add" name="action">
+                            						<input type="hidden" value="HFB1" name="id">
+                            						<input type="hidden" value="Holiday Flower Basket" name="descr">
+                            						<input type="hidden" value="65.99" name="price">
+                            						<input type="hidden" name="taxrateid" value="1">
+                            						<input type="hidden" name="weight" value="5">
+                                                    <input type="hidden" name="quantity" value="1">
+                                                    
+                                                   	 <select name="curr">
+                                                     <option value="usd">Purchase with U.S. Dollars</option>
+                                                     <option value="cand">Purchase with Canadian Dollars</option>  			
+                                                     </select>
+                                                    
+													<input type="submit" value="Add to Cart"> 
+													</form>     
+											</td>
+                                        </tr>
+                                    </table>
+                                    </blockquote>
+                                    
+                                </td>
+                            </tr>
+
+							
+
+							
+
+							
+
+							
+							
+						</table>
+					</td>
+				</tr>
+			</table>
+
+			<table width="760"  border="0" cellpadding="0" cellspacing="0" bgcolor="#FFFFFF" class="tableborder">
+
+				<tr>
+					<td height="7" bgcolor="#CC0000">
+                   		<img src="images/red_dot.gif" width="5" height="7">
+                    </td>
+				</tr>
+
+				<tr>
+					<td height="35" align="center" bgcolor="#4BDBFF" class="copyright">
+						<p>Copyright @ 2006 - <script type="text/javascript"> var dateObject=new Date(); document.write(dateObject.getFullYear()); </script> Webrigger Internet Services. All Rights Reserved <br>
+							<a href="http://www.phpcart.net" class="footer">phpCart.net</a> - php Shopping Cart</p>
+					</td>
+				</tr>
+			</table>
+
+		</td>
+	</tr>
+</table>
+
+</body>
+
+</html>

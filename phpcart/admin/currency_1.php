@@ -1,0 +1,1 @@
+<?php $currencyarray="US Dollar:usd:US $:Y::USD;Canadian Dollar:cand:CAN $::1.03:CAD"; ?>
